@@ -17,7 +17,7 @@ export function renderFriend(friend) {
   nameEl.textContent = friend.name;
 
   if (friend.satisfaction === 1) {
-    emojiEl.textContent = '😒';
+    emojiEl.textContent = '😞';
   }
 
   if (friend.satisfaction === 2) {
@@ -25,7 +25,7 @@ export function renderFriend(friend) {
   }
 
   if (friend.satisfaction === 3) {
-    emojiEl.textContent = '😀';
+    emojiEl.textContent = '🤩';
   }
 
   div.append(nameEl, emojiEl);
