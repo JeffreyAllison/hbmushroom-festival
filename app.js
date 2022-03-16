@@ -79,7 +79,7 @@ function displayFriends() {
         mushroomCount--;
       }
       if (mushroomCount === 0) {
-        alert('get more mushrooms');
+        alert('get some more mushrooms');
       }
       displayFriends();
       displayMushrooms();
